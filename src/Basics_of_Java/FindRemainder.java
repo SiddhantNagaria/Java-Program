@@ -10,10 +10,10 @@ public class FindRemainder {
         int a = sc.nextInt();
         System.out.println("Enter divisor :");
         int b = sc.nextInt();
-        int q = a/b;
-        int r = a - (b*q);
-        int r_easy = a%b;
-        System.out.println("remainder when " + a+ " is divided by " + b + " is : ");
+        int q = a / b;
+        int r = a - (b * q);
+        int r_easy = a % b;
+        System.out.println("remainder when " + a + " is divided by " + b + " is : ");
         System.out.println(r);
         System.out.println(r_easy);
     }
