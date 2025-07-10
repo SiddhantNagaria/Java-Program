@@ -6,8 +6,9 @@ public class TryAndCatch {
         try{
             d=0;
             a=42/d;
-            System.out.println("this is invalid");
+            System.out.println(a + "this is invalid");
         }catch(ArithmeticException e){
+            System.out.println("exception : " + e);
             System.out.println("division by zero");
         }
         System.out.println("After catch statement");
