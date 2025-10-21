@@ -1,3 +1,5 @@
+// Unboxing is the process of converting a wrapper class object
+// into its corresponding primitive data type.
 package Wrapper_Class;
 
 public class Unboxing {
@@ -5,7 +7,7 @@ public class Unboxing {
         Integer a = new Integer(2);
         Integer code = 109;
         int aa = a;
-        int ab = a.intValue(); //
+        int ab = a.intValue();
         int empCode = code;
 
     }
