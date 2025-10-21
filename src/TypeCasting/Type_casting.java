@@ -44,6 +44,8 @@ public class Type_casting {
         //int to string
         int employeecode = 9901;
         String employCode = String.valueOf(employeecode);
+        String ecCode = Integer.toString(employeecode);
         System.out.println(employCode);
+        System.out.println(ecCode);
     }
 }
