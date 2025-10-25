@@ -2,7 +2,7 @@
 // only essential features.
 
 //Abstract Class -> A class that cannot be instantiated (you can’t create objects of it)
-// and can contain both abstract (unimplemented) and non-abstract (implemented) methods.
+// and can contain both - at least 1 abstract (unimplemented) and non-abstract (implemented) methods.
 //It allows constructor.
 //Can't instantiate abstract class.
 /// /methods are may/not be public/final/static
