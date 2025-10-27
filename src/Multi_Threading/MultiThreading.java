@@ -48,7 +48,11 @@
 //Producer Consumer Problem in MultiThreading
 
 
-//Thread Priorities = 3 priorities
+//Thread Priorities -
+//  - Every thread in Java has a priority number (1–10) that tells the JVM scheduler how important that thread is.
+//  - But priority is just a request, not a guarantee!
+
+// 3 priorities
 //  1. min -1
 //  2. normal - 5
 //  3. max - 10
