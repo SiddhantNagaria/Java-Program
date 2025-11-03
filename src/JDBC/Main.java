@@ -3,7 +3,7 @@ package JDBC;
 import java.sql.*;
 
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args)  {
 
         //address of your database — that tells Java where your database lives and how to connect.
         String url = "jdbc:mysql://localhost:3306/mydb";
@@ -43,7 +43,12 @@ public class Main {
 
             //Statement interface is used to create a statement on which a query has to be executed against a db.
             Statement stmt = conn.createStatement();
+
             //ResultSet is used to store the result of the query on the statement
+
+            // executeQuery -> Used for SELECT statements — i.e., when you want to read data from the database.
+            //It is used to fetch data and returns the result in a ResultSet object.
+            //Return Type:ResultSet
             ResultSet rs = stmt.executeQuery(q);
             while (rs.next()) {
                 //Move to the next row in the result table.
