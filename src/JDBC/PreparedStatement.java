@@ -53,7 +53,6 @@ public class PreparedStatement {
                 System.out.println("insertion failed");
             }
 
-
             //  .next() -> moves the cursor to the next row in your SQL query result.
             //          - returtn true if there is next row OR false if no more rows
             //          - will be true until data exists
@@ -68,13 +67,9 @@ public class PreparedStatement {
 //            rs.close();
             ps.close();
             con.close();
-
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
     }
 
 
